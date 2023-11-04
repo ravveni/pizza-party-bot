@@ -2,7 +2,7 @@
 
 Automated bot constructed to play [Pizza Party on MiniGames.com](https://www.minigames.com/games/pizza-party). 
 
-Powered with `pyautogui` for image recognition and GUI control.
+Powered with `pyautogui` for image recognition and mouse control.
 
 ![](https://github.com/ravveni/pizza_party_bot/blob/main/preview.gif)
 [Full playthrough](https://www.youtube.com/watch?v=wrMP2zDg1ds)
@@ -10,7 +10,7 @@ Powered with `pyautogui` for image recognition and GUI control.
 ## Usage
 1. Run `main.py` (browser will open, do not resize)
 2. Scroll to centre game and remove any banners/cookie agreements/popups
-    - Ad size and banner location were too variable, inconsistent game screen placement for this bot
+    - Ad size/banner location were too variable leading to inconsistent game screen placement which was out of scope for this bot
 3. Press the "Go" button, stop touching mouse/trackpad, sit back, and watch the bot make loads of pizza
 
 ## Bot Capabilities
@@ -38,8 +38,6 @@ Powered with `pyautogui` for image recognition and GUI control.
 The only known issue for newer versions of Python on a fresh install is this (workaroundable):
 ```
 Traceback (most recent call last):
-  File "/path/to/file", line 3, in <module>
-    pag.locateOnScreen('beldum.png')
   File "/path/to/venv/lib/python3.11/site-packages/pyautogui/__init__.py", line 172, in wrapper
     return wrappedFunction(*args, **kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
