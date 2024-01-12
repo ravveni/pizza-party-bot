@@ -6,6 +6,10 @@ Powered with `pyautogui` for image recognition and mouse control.
 
 ![](https://github.com/ravveni/pizza_party_bot/blob/main/preview.gif)
 [Full playthrough](https://www.youtube.com/watch?v=wrMP2zDg1ds)
+##
+Contributing
+
+## Contributing
 
 ## Usage
 1. Run `main.py` (browser will open, do not resize)
