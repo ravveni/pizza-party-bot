@@ -61,3 +61,6 @@ with this code:
 if tuple(map(int, PIL__version__.split("."))) < (6, 2, 1):
 ```
 Now everything should work fine. [Source of fix](https://stackoverflow.com/questions/76361049/how-to-fix-typeerror-not-supported-between-instances-of-str-and-int-wh)
+
+## Contributing
+If you think of any efficiencies or improvements, don't hesitate to open an issue, PR, or start a discussion!
