@@ -1,5 +1,8 @@
-# Pizza Party Bot
-## 🤝 Contributing
+Contributing
+## Contributing
+
+## 
+Contributing
 
 ### Clone the repo
 
